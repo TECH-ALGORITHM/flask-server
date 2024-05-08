@@ -16,6 +16,6 @@ def classify_image():
     return response
 
 if __name__ == "__main__":
-    print("Starting Python Flask Server For Imge Recognition Game")
+    print("Starting Python Flask Server For Image Recognition Game")
     util.load_saved_artifacts()
     app.run(port=5000)
